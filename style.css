@@ -1,0 +1,156 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+.banner{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 100px;
+   
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.banner .content{
+max-width: 750px;
+}
+
+.banner .content h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.3em;
+    letter-spacing: 0.1em;
+   /* color: #fff; */
+}
+
+.banner .content h2 span{
+    font-weight: 800;
+}
+.banner .content p{
+    font-size: 1.0em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    /*color: #fff; */
+    margin: 15px 0 35px;   
+}
+#btn{
+    position: relative;
+     margin-bottom: 10px;
+     display: inline-block;
+     border-radius: 4px;
+    background-color: #97866f;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    width: 120px;
+    height: 34px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 6.5px;
+}
+#more{
+    display: none;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+.play img{
+    width: 7%;
+    height: 7%;
+    margin-right: 10px;
+    max-width: 50px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
